@@ -944,7 +944,7 @@ ${prefs}owner <undefined>
 ${prefs}listpc <undefined>
 ${prefs}listgc <undefined>
 ${prefs}mcserver <query>
-${prefs}sc <undefined>
+${prefs}sewabot <undefined>
 ${prefs}ping <undefined>
 ${prefs}thanksto <query>
 ${prefs}afk <query>
@@ -2122,7 +2122,7 @@ rows: listMsgs
 
 const listMessage = {
 text: "ketuk button dibawah untuk melihat daftar list respon message, ketuk lagi untuk menjalankan fiturnya",
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© GilzzOFC",
 title: "     「 List Respon Message 」",
 buttonText: "List Message",
 sections
@@ -2787,11 +2787,17 @@ quoted.copyNForward(yoi, true, {quoted:fgclink})
 m.reply('Sukses Broadcast')
 }
 break
-case 'sc': case 'script': case 'donate': case 'donasi': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `     「 ZackMans Official 」\n\n${zckmn.saweria}\n${zckmn.donate}`
-for (let i of zckmn.source) {
-teks += `\n\nName : ${i.name}\n${i.link}`
-}
+case 'sewabot': case 'sewabot': *HAI KAK MAU SEWA BOT?*
+
+10K PERMANEN
+
+OPEN JASA RUN BOT
+-TINGGAL SCAN
+-NOMOR / NAMA BOT TINGGAL GANTI TRSH KMU
+-BOT ON 24 JAM
+-BISA SCAN ULANG JIKA WA KENON
+MINAT?wa.me/6285730794089
+
 teks += `\n\n${zckmn.group}\n\nPassword : ZackMansOfficial\nDont Forget Donate`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu'}, type: 1}
